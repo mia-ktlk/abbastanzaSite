@@ -1,0 +1,288 @@
+/*
+Theme Name:   V Blog
+Theme URI:    https://www.amplethemes.com/downloads/v-blog/
+Description:  V Blog is a responsive WordPress theme, its the child theme of Ample Blog. This is one best ever crafted free WordPress themes for Blog, news, and Magazine. It's 2 column with masonary layout, its is a simple, easy to use, modern and creative, user-friendly WordPress theme with color options.
+              With the help of its live customizer, you can modify the theme with ease like setting a new header and footer, changing the colors and many others. The theme has some amazing features to offer to its users. It has good compatibility with all kinds of web browsers like Google Chrome, Firefox, and Safari etc.
+              In addition,  It comes with added custom widgets for author,Recent post, Feature widget, sticky sidebar options, footer widget, sidebar options, meta option, copyright option, social options etc.
+Author:       amplethemes
+Author URL:   https://www.amplethemes.com/
+Template:     ample-blog
+Version:      0.0.3
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           two-columns, right-sidebar, custom-background, custom-colors, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready, blog
+ */
+/* Write here your own personal stylesheet */
+
+
+.widget > ul li a, .widget > ul li {
+  
+    font-size: 15px !important;
+    
+}
+
+.header-nav .menu > li > a{ font-size: 16px; }
+
+ .cssmenu ul ul li a { font-size: 16px; }
+
+.widget {
+      box-shadow: 0 0 15px #cccccc57 !important;
+}
+
+.image-info {
+       margin-bottom: 0px;
+    
+}
+
+body {
+    background: #f8f8f8;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #555;
+    letter-spacing: .1em;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,dd, dt {
+   line-height: 1.5;
+    }
+
+
+.post-info .post-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    margin: 14px 0;
+}
+
+.post-navigation .nav-previous {
+    float: left;
+    width: 47%;
+}
+
+.widget_search input[type="submit"] {
+    line-height: 44px;
+    padding: 0 14px;
+}
+
+/** New added  **/
+
+.boxed-wrapper {
+  margin: 0 auto;
+}
+
+#page-header.boxed-wrapper {
+  padding: 0 !important;
+}
+
+
+.btn-default {
+    background-color: #617c58;
+    border-color: #617c58;
+    color: #FFF;
+    -webkit-border-radius: 0;
+    text-transform: uppercase;
+    line-height: 38px;
+    padding: 0 15px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+.copyright-text p {
+    line-height: 27px;
+}
+/*--------------------------------------------------------------
+7.0 Featured Links
+--------------------------------------------------------------*/
+
+#featured-links {
+  padding-top: 20px;
+}
+
+#featured-links .boxed-wrapper {
+  font-size: 0;
+  text-align: center;
+}
+
+#featured-links .featured-link {
+  position: relative;
+  float: left;
+}
+
+#featured-links a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#featured-links .cv-outer {
+  padding: 10px;
+}
+
+#featured-links h6 {
+  display: inline-block !important;
+  padding: 9px 20px !important;
+  font-family: 'Open Sans';
+  font-size: 14px!important;
+  font-weight: 600!important;
+  letter-spacing: 1px!important;
+  text-transform: uppercase!important;
+}
+
+#featured-links h6 {
+    background-color: rgba(255,255,255, 0.85);
+    color: #000000;
+}
+
+.cv-outer {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.cv-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#featured-links
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blog-post {
+      box-shadow: 0 0 15px #cccccc57 !important;
+}
+
+#featured-links .featured-link img{ box-shadow: 0 0 15px rgba(0,0,0,0.2)!important; }
+
+
+.post-info .post-title {
+    font-size: 25px;
+}
+
+.comments-area {
+     box-shadow: 0 0 15px #cccccc57 !important;
+}
+
+.post-content {
+    padding: 40px 20px 20px;
+}
+
+.post-content p {
+     text-align: justify;
+}
+
+.logo-area {
+    margin: 20px 0 20px;
+}
+
+.post-meta, .post-meta a {
+    line-height: 26px;
+    font-size: 13px;
+}
+
+.about-me.text-center {
+    text-align: justify!important;
+  
+}
+
+.widget_mc4wp_form_widget input[type="email"]
+{
+    width: 55%;
+    color: #222222;
+    border: 1px solid #ed0505;
+    height: 45px;
+    margin: 0 2%;
+    padding: 0 20px;
+}
+.widget_mc4wp_form_widget .btn.btn--round
+{
+      border: 1px solid #ed0505;
+      background-color: #ed0505;
+      color:#FFF;
+      line-height: 31px;
+      border-radius: 0px;
+}
+
+
+.blog-post .post-info {
+    margin: 0 0 20px;
+}
+
+.shape1 {
+    height: 20px !important;
+    width: 62px !important;;
+    text-align: center;
+}
+
+blockquote {
+    margin-left: 58px !important;
+    padding-left: 26px!important;
+    position: relative!important;
+}
+
+@media (max-width:678px) {
+
+    .widget_search input[type="submit"]
+    {
+      margin-top: 10px;
+      margin-left: 7px;
+    }
+    }
+
+
+@media only screen and (max-width: 767px)
+{
+    .post-navigation .nav-next {
+        float: left;
+        text-align: left;
+        width: 100%;
+        margin-top: 13px;
+    }
+
+    #featured-links .featured-link {
+     margin-bottom: 25px;
+    }
+    .shape1,.topbar{ display: none!important; }
+
+    .header-slider-style2 .slide-item .post-info {
+    padding: 18px 8px 1px;
+    height: 131px;
+    }
+
+    .post-meta, .post-meta a 
+    {
+        font-size: 13px;
+        margin-top: 8px;
+   }
+
+   .post-info .post-title
+    {
+      font-size: 20px;
+    }
+
+    .blog-post .post-info 
+    {
+     margin: 0 0 15px;
+   }
+
+}
+
+@media (max-width: 481px)
+{
+    .logo-area {
+        margin: 5px 0;
+    }
+}
+@media (max-width: 640px){
+        
+          .post-info .post-title
+         {
+            margin: 5px 0px!important;
+        }
+}
+

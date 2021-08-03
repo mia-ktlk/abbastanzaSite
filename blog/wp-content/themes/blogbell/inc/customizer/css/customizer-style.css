@@ -1,0 +1,461 @@
+/**
+* Custom Css for backend 
+*
+* @package BlogBell
+*/
+#blogbell-img-container li{
+	padding: 3px;
+}
+#blogbell-img-container .blogbell-radio-img-selected{
+	border: 3px solid hsla(209, 95%, 24%, 0.60);
+	padding: 1px;
+	width: 16%;
+}
+
+/**
+* Custom Css for backend 
+*
+* Repeater Text 
+* 
+*/
+.customize-control-repeater-text .repeater-text-fields .set {
+	margin-bottom: 5px;
+	padding-right: 15px;
+	position: relative;
+}
+
+.customize-control-repeater-text .repeater-text-fields input {
+	margin-bottom: 5px!important;
+}
+
+.customize-control-repeater-text .btn-remove-field {
+	color: red;
+	position: absolute;
+	right: -7px;
+	top: 3px;
+}
+
+.customize-control-repeater-text .btn-remove-field span {
+	text-decoration: none;
+}
+
+.customize-control-repeater-text .btn-remove-field:active,
+.customize-control-repeater-text .btn-remove-field:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Radio Image */
+.customize-control-radio-image input.stylish-radio-image {
+	display: none;
+}
+
+.customize-control-radio-image input.stylish-radio-image + span {
+    display: inline-flex;
+    padding: 3px!important;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    border: 2px solid #FFFFFF;
+    margin-bottom: 10px;
+}
+.customize-control-radio-image input.stylish-radio-image + span:hover{
+	opacity: 0.7;
+}
+.customize-control-radio-image input.stylish-radio-image:checked + span {
+	border: 2px solid #777777;
+}
+
+/* Custom CSS */
+.customize-control-range input[type="range"] {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    opacity: 0.7;
+}
+.customize-control-range input[type="range"]:hover {
+	opacity: 1;
+}
+.customize-control-range input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3498D9;
+    cursor: pointer;
+}
+.customize-control-range input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3498D9;
+    cursor: pointer;
+}
+.customize-control .customize-inside-control-row {
+    position: relative;
+    width: 52px;
+    padding: 0;
+    display: inline-block;
+    float: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.customize-inside-control-row input[type="checkbox"] {
+    display:none;
+}
+.customize-inside-control-row input[type="checkbox"] + label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 22px;
+    padding: 0;
+    line-height: 19px;
+    text-indent: -1000px;
+    transition: background-color 0.2s ease-in;
+    /*-webkit-border-radius: 11px;*/
+    -moz-border-radius: 11px;
+    /*border-radius: 30px;*/
+    background-color: #008ec2;
+    margin-bottom: 20px;
+    -webkit-box-shadow: inset 0 2px 1px rgba(0, 0, 0, .11);
+    -moz-box-shadow: inset 0 2px 1px rgba(0, 0, 0, .11);
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, .11);
+}
+.customize-inside-control-row input[type="checkbox"] + label:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    right: 4px;
+    background-color: #fff;
+    text-indent: 0;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in 0s;
+}
+.customize-inside-control-row input[type="checkbox"]:checked + label:before {
+    right: 32px;
+}
+.customize-inside-control-row input[type="checkbox"]:checked + label:after {
+    content: "OFF";
+    display: block;
+    color: #FFF;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 6px;
+    font-size: 11px;
+    font-family: 'Arial';
+}
+
+input[type="checkbox"]:checked + label {    
+    background-color: #c4c4c4;
+}
+input[type="checkbox"] + label:before {
+    right: 32px;
+}
+.customize-inside-control-row input[type="checkbox"] + label:after {
+    content: "ON";
+    display: block;
+    color: #FFF;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 27px;
+    font-size: 11px;
+    text-indent: 0;
+    font-family: 'Arial';
+}
+#customize-control-show_on_front.customize-control .customize-inside-control-row,
+#customize-control-theme_options-primary_color.customize-control .customize-inside-control-row {
+    position: relative;
+    width: auto;
+    padding: 6px 0;
+    display: block;
+    float: none;
+} 
+li:not(.customize-control-dropdown-pages).customize-control-number .customize-control-title,
+li:not(.customize-control-dropdown-pages).customize-control-select .customize-control-title,
+li:not(.customize-control-dropdown-posts).customize-control-text label[for="_customize-input-theme_options[service_title]"],
+li:not(.customize-control-dropdown-pages).customize-control-text label[for="_customize-input-theme_options[service_title]"],
+li:not(.customize-control-dropdown-pages).customize-control-text label[for="_customize-input-theme_options[counter_section_title]"],
+li:not(.customize-control-dropdown-pages).customize-control-text label[for="_customize-input-theme_options[gallery_title]"],
+li:not(.customize-control-dropdown-pages).customize-control-text label[for="_customize-input-theme_options[testimonial_section_title]"],
+li:not(.customize-control-dropdown-pages).customize-control-text label[for="_customize-input-theme_options[blog_title]"],
+li#customize-control-theme_options-blog_category .customize-control-select .customize-control-title,
+li#customize-control-theme_options-background_counter_section .customize-control-title,
+li#customize-control-theme_options-additional_info_section_title label[for="_customize-input-theme_options[additional_info_section_title]"],
+li#customize-control-theme_options-layout_options span,
+li#customize-control-theme_options-copyright_text label,
+li#customize-control-theme_options-archive_header_image label,
+li#customize-control-theme_options-search_header_image label,
+li#customize-control-theme_options-404_header_image label,
+#customize-control-show_on_front.customize-control .customize-control-title,
+#customize-control-background_image .customize-control-title,
+#customize-control-header_image label span,
+#customize-control-header_image .customize-control-title.header-default,
+#customize-control-header_textcolor > span,
+#customize-control-background_color > span,
+#customize-control-theme_options-scroll_top_visible > span,
+#customize-control-theme_options-colorscheme_hue > span,
+#customize-control-theme_options-primary_color > span.customize-control-title,
+#customize-control-custom_logo > label,
+#customize-control-blogname > label,
+#customize-control-blogdescription > label,
+#customize-control-site_icon > label > span.customize-control-title,
+#customize-control-theme_options-header_social_links h3 > span,
+#customize-control-theme_options-header_location > .customize-control-title,
+#customize-control-theme_options-header_phone > .customize-control-title,
+#customize-control-theme_options-header_email > .customize-control-title,
+#customize-control-theme_options-custom_blue_color > .customize-control-title,
+#customize-control-theme_options-custom_red_color > .customize-control-title,
+.customize-control-switch .customize-control-title,
+.customize-control-title,
+.customize-control .attachment-media-view .default-button, 
+.customize-control .attachment-media-view .remove-button, 
+.customize-control .attachment-media-view .upload-button.control-focus, 
+.customize-control-header button.new, 
+.customize-control-header button.remove{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: #0e5bd6;
+    padding: 4px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.wp-core-ui .button-primary {
+    background: #0e5bd6;
+    border-color: #0e5bd6 #0e5bd6 #0e5bd6;
+    box-shadow: 0 1px 0 #0e5bd6;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #0e5bd6, 1px 0 1px #0e5bd6, 0 1px 1px #0e5bd6, -1px 0 1px #0e5bd6;
+}
+
+#customize-control-display_header_text.customize-control .customize-inside-control-row {
+    width: auto;
+    float: none;
+}
+#customize-control-display_header_text.customize-control .customize-inside-control-row input[type="checkbox"] + label:before,
+#customize-control-display_header_text.customize-control .customize-inside-control-row input[type="checkbox"] + label:before,
+#customize-control-display_header_text.customize-control .customize-inside-control-row input[type="checkbox"] + label:after,
+#customize-control-display_header_text.customize-control .customize-inside-control-row input[type="checkbox"] + label:after {
+    display: none;
+}
+#customize-control-display_header_text.customize-control .customize-inside-control-row input[type="checkbox"] + label {
+    display: inline-block;
+    overflow: visible;
+    height: auto;
+    padding: 3px 0 6px;
+    line-height: 1;
+    background-color: transparent;
+    box-shadow: none;
+    text-indent: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#customize-control-display_header_text.customize-control .customize-inside-control-row input[type="checkbox"] {
+    display: inline-block;
+}
+
+/*------------------------
+Top Bar Css
+-------------------------*/
+
+#customize-control-theme_options-show_header_contact_info .customize-inside-control-row input[type="checkbox"]:checked + label,
+#customize-control-theme_options-show_header_social_links .customize-inside-control-row input[type="checkbox"]:checked + label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    height: 22px;
+    padding: 0;
+    line-height: 19px;
+    text-indent: -1000px;
+    transition: background-color 0.2s ease-in;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 30px;
+    background-color: #3caf0e;
+    margin-bottom: 20px;
+    -webkit-box-shadow: inset 0 2px 1px rgba(0, 0, 0, .11);
+    -moz-box-shadow: inset 0 2px 1px rgba(0, 0, 0, .11);
+    box-shadow: inset 0 2px 1px rgba(0, 0, 0, .11);
+}
+#customize-control-theme_options-show_header_contact_info .customize-inside-control-row input[type="checkbox"]:checked + label:before,
+#customize-control-theme_options-show_header_social_links .customize-inside-control-row input[type="checkbox"]:checked + label:before {
+    content: "";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    bottom: 0;
+    right: 4px;
+    background-color: #fff;
+    text-indent: 0;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .1);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in 0s;
+}
+#customize-control-theme_options-show_header_contact_info .customize-inside-control-row input[type="checkbox"] + label:before,
+#customize-control-theme_options-show_header_social_links .customize-inside-control-row input[type="checkbox"] + label:before {
+    right: 32px;
+}
+#customize-control-theme_options-show_header_contact_info .customize-inside-control-row input[type="checkbox"] + label:after,
+#customize-control-theme_options-show_header_social_links .customize-inside-control-row input[type="checkbox"] + label:after {
+    content: "OFF";
+    display: block;
+    color: #FFF;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 6px;
+    font-size: 11px;
+    font-family: 'Arial';
+}
+#customize-control-theme_options-show_header_contact_info input[type="checkbox"] + label,
+#customize-control-theme_options-show_header_social_links input[type="checkbox"] + label {    
+    background-color: #c4c4c4;
+}
+#customize-control-theme_options-show_header_contact_info input[type="checkbox"]:checked + label:before,
+#customize-control-theme_options-show_header_social_links input[type="checkbox"]:checked + label:before {
+    right: 32px;
+}
+#customize-control-theme_options-show_header_contact_info .customize-inside-control-row input[type="checkbox"]:checked + label:after,
+#customize-control-theme_options-show_header_social_links .customize-inside-control-row input[type="checkbox"]:checked + label:after {
+    content: "ON";
+    display: block;
+    color: #FFF;
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    right: 27px;
+    font-size: 11px;
+    text-indent: 0;
+    font-family: 'Arial';
+}
+
+
+/**
+ * SWITCH CONTROL *
+ */
+.onoffswitch {
+    position: relative;
+    width: 100px;
+    margin-right: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.onoffswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    -moz-transition: margin .3s ease-in 0s;
+    -webkit-transition: margin .3s ease-in 0s;
+    -o-transition: margin .3s ease-in 0s;
+    transition: margin .3s ease-in 0s
+}
+
+.onoffswitch-inner > div {
+    float: left;
+    position: relative;
+    width: 50%;
+    height: 24px;
+    padding: 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.onoffswitch-inner .onoffswitch-active {
+    background-color: #d4d4d4;
+    color: #FFF
+}
+
+.onoffswitch-inner .onoffswitch-inactive {
+    background-color: #d4d4d4;
+    color: #FFF;
+    text-align: right
+}
+
+.onoffswitch-switch {
+    width: 50px;
+    margin: 0;
+    text-align: center;
+    border: 0 solid #999;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+
+.onoffswitch-active .onoffswitch-switch {
+    background: #0e5bd6;
+    left: 0
+}
+
+.onoffswitch-inactive .onoffswitch-switch {
+    background: #7D7D7D;
+    right: 0
+}
+.switch-on .onoffswitch-inner {
+    margin-left: 0
+}
+
+/*************** 10. Multi fields ***************/
+.customize_multi_fields .set{
+    margin-bottom: 5px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.customize_multi_fields input{
+    margin-bottom: 5px!important;
+}
+
+.customize_multi_remove_field{
+    color: red;
+    position: absolute;
+    right: -7px;
+    top: 3px;
+}
+
+.customize_multi_remove_field span{
+    text-decoration: none;
+}
+
+.customize_multi_remove_field:active,
+.customize_multi_remove_field:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

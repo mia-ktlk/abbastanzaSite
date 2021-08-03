@@ -1,0 +1,102 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: X Blog Plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-07 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3"
+
+#: template-parts/content-grid.php:9 template-parts/content-list.php:9
+#: template-parts/content-search.php:9 template-parts/content.php:9
+msgid " / "
+msgstr ""
+
+#. %s: post title
+#: functions.php:85
+#, php-format
+msgid "comment <span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template-parts/content-grid.php:47 template-parts/content-list.php:41
+#: template-parts/content-search.php:32 template-parts/content.php:45
+msgid "Continue Reading .."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-grid.php:54 template-parts/content-list.php:48
+#: template-parts/content.php:52
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Enter top bar text here."
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://profiles.wordpress.org/nalam-1/"
+msgstr ""
+
+#. Author of the theme
+msgid "Noor alam"
+msgstr ""
+
+#: template-parts/content-grid.php:67 template-parts/content-list.php:61
+#: template-parts/content-search.php:36 template-parts/content.php:65
+msgid "Pages:"
+msgstr ""
+
+#. %s: post author.
+#: functions.php:73
+#, php-format
+msgctxt "post author"
+msgid "- %s"
+msgstr ""
+
+#. %s: post date.
+#: functions.php:67
+#, php-format
+msgctxt "post date"
+msgid "- %s"
+msgstr ""
+
+#: header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "Top bar text"
+msgstr ""
+
+#: functions.php:13
+msgid "Top menu"
+msgstr ""
+
+#: header.php:11 inc/customizer.php:19
+msgid "Welcome Xblog plus WordPress Theme"
+msgstr ""
+
+#. Name of the theme
+msgid "X Blog Plus"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"X Blog Plus a free responsive pure WordPress blog, magazine and news theme. "
+"This is the child theme of X Blog theme. X Blog Plus is an awesome to "
+"display your website very beautiful and good looking.  X Blog Plus is "
+"editable and super flexible new functionality. The theme has nice, beautiful "
+"and professional layouts. This theme is made for any search engine, SEO "
+"Compatible.  X Blog Plus is a totally responsive.  Html5 and css3 based "
+"coded.  It is the blog and magazine theme you case to use for the magazine "
+"and blog websites."
+msgstr ""

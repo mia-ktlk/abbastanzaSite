@@ -1,0 +1,36 @@
+.animated-bg {
+	background: linear-gradient(-45deg, #FFA500, #FFFFFF, #00a2ff, #18c5c8) !important;
+	background-size: 400% 400% !important;
+	animation: gradient 15s ease infinite !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.linkinbio img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ffa500;
+}
+.bio-btn {
+    color: black;
+    background-color: white;
+    border-color: white;
+    border-radius: 2rem;
+}
+
+.bio-btn:hover {
+    color: black;
+    background-color: #ffa500 !important;
+    border-color: #ffa500;
+    border-radius: 2rem;
+}
